@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from les import LES
 
 
-ft = 49.5 # This will be the second part, the first will be 50hz to make the test vector generation simple
+ft = 48 # This will be the second part, the first will be 50hz to make the test vector generation simple
 mag = 330.0
 dc_offset = 0.0
 
@@ -39,7 +39,7 @@ les_out = les.run_les(yt)
 
 # Visualisation of the output
 fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, sharex=True, sharey=False)
-fig.suptitle('LES Shift test', fontsize=16)
+fig.suptitle('LES Freq Step Test', fontsize=16)
 
 # Plots have the LES generated lines wider so the correct lines is overlayed and visable.
 # Plot the phases

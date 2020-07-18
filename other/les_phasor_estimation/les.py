@@ -85,10 +85,7 @@ class LES:
         est_phi_out = np.zeros(int(self.window+1)).tolist()
         est_offset_out = np.zeros(int(self.window+1)).tolist()
         est_mag_out = np.zeros(int(self.window+1)).tolist()
-        
-        report_f = []
-        report_phi = []
-        report_mag = []
+
         
         for shift in range(int(self.window+1), int(samples.size)):
             
@@ -113,10 +110,6 @@ class LES:
             est_offset_out.append(b)
             est_mag_out.append(m)
         
-            if shift % 50 == 0 and shift != 0:
-                report_f.append(est_freq)
-                report_phi.append(phi_2)
-                report_mag.append(b)
         
         return est_freq_out, est_phi_out, est_mag_out, est_offset_out
         
