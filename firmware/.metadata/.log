@@ -1,0 +1,21 @@
+!SESSION 2020-08-03 07:29:25.797 -----------------------------------------------
+eclipse.buildId=Version 1.4.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_AU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Source\xmu\firmware
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-08-03 07:29:32.063
+!MESSAGE Log4j initialized with config file C:\Source\xmu\firmware\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-08-03 07:29:39.366
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-08-03 07:29:39.929
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-08-03 07:30:37.128
+!MESSAGE Indexed 'xPmu_H7' (125 sources, 296 headers) in 7.38 sec: 17,721 declarations; 128,723 references; 3 unresolved inclusions; 30 syntax errors; 175 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-08-03 07:30:37.890
+!MESSAGE Indexed 'ADC_Config_uC' (26 sources, 104 headers) in 0.755 sec: 8,046 declarations; 37,392 references; 2 unresolved inclusions; 36 syntax errors; 186 unresolved names (0.41%)
