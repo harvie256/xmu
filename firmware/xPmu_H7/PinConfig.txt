@@ -1,0 +1,30 @@
+The following configuration is for pin planning.
+
+TIM1 -> Used to generate the nCS signal for the ADC SPI from the ADC DRDY signal.  Uses the following:
+ADC DRDY signal input on CC CH1
+nCS SPI output on CC CH2
+
+TIM5 - > 32Bits, used for tracking GPS PPS input and capturing the time of ADC samples.
+GPS PPS signal input on CC CH1 (First GPS)
+GPS PPS signal input on CC CH2 (Second GPS)
+ADC DRDY signal input on CC CH3
+
+QSPI B1 & B2 -> Flash and PSRAM
+
+Ethernet -> phy
+
+SPI3 -> ADC input
+
+USART1 -> GPS IO
+
+USART2 -> Wifi comms (planned)
+
+USART3 -> ADC monitor in
+
+USART6 -> GPS2 input
+
+
+I2C1 - BMP280
+
+clk 25MHz -> Master clock out 1 connect to ethernet phy
+
